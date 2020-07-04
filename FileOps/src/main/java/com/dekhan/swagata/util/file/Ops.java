@@ -293,10 +293,9 @@ public class Ops extends Base {
 
 	Ops ops = new Ops();
 
-	log.info(ops.getLogMsgPrefix() + "==============");
+	log.info(ops.getLogMsgPrefix() + "==============================");
 	log.info(ops.getLogMsgPrefix() + "Start");
-	log.info(ops.getLogMsgPrefix() + "==============");
-
+	
 	/*
 	 * CommandLine cmd = ops.getArgs(args); String dir = cmd.getOptionValue("dir");
 	 * String pattern = cmd.getOptionValue("pattern");
@@ -326,8 +325,7 @@ public class Ops extends Base {
 	    log.debug(ops.getLogMsgPrefix() + "Returned File = " + m);
 	}
 
-	log.info(ops.getLogMsgPrefix() + "==============");
 	log.info(ops.getLogMsgPrefix() + "End");
-	log.info(ops.getLogMsgPrefix() + "==============");
+	log.info(ops.getLogMsgPrefix() + "==============================");
     }
 }
