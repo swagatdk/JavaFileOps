@@ -11,8 +11,8 @@
 			</PatternLayout>
 		</Console>
 		<RollingFile name="LogToDailyRollingFile"
-			fileName="${logPath}\Ops.log"
-			filePattern="${logPath}\Ops-%d{yyyy-MM-dd}.log">
+			fileName="${logPath}\OpsTest.log"
+			filePattern="${logPath}\OpsTest-%d{yyyy-MM-dd}.log">
 			<PatternLayout>
 				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</Pattern>
 			</PatternLayout>
@@ -24,7 +24,7 @@
 	</Appenders>
 
 	<Loggers>
-		<Root level="info">
+		<Root level="debug">
 			<AppenderRef ref="LogToDailyRollingFile" />
 			<AppenderRef ref="LogToConsole" />
 		</Root>

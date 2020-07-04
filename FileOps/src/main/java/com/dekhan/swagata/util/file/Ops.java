@@ -309,7 +309,7 @@ public class Ops extends Base {
 	String dir = ".";
 	String copyDir = "D:\\temp\\test\\copy\\";
 	String moveDir = "D:\\temp\\test\\move\\";
-	String pattern = "*.class";
+	String pattern = "*.prefs";
 	boolean isGlob = true;
 
 	List<String> returnedFiles;
