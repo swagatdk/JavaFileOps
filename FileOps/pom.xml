@@ -58,7 +58,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.dekhan.swagata.util.file.Ops</mainClass>
+							<mainClass>com.dekhan.swagata.util.file.FileOpsUse</mainClass>
 						</manifest>
 						<manifestEntries>
 							<Class-Path>.</Class-Path>
