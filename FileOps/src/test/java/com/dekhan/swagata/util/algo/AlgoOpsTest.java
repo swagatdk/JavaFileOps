@@ -65,12 +65,12 @@ public class AlgoOpsTest {
     @Order(3)
     public void testLcsMultiline() {	
 	String in1 = "drop view if exists  my_view1, my_view2, my_view3, my_view4";		
-        String in2 = "drop \r\n" + "view some_view\t restrict";
+        String in2 = "drop \r\n " + "view some_view\t restrict";
         	
         String s = in1.trim().replaceAll("\\s+", " ");
         String t = in2.trim().replaceAll("\\s+", " ");
         String lcs = algoOps.lcs(s, t);
         log.info("Returned LCS = " + lcs);           
 	assertEquals("drop view ", lcs);
-    }
+    }    
 }
