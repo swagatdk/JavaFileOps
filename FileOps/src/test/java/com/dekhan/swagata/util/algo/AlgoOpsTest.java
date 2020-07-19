@@ -49,7 +49,7 @@ public class AlgoOpsTest {
     }
     
     @Test
-    @Order(1)
+    @Order(2)
     public void testLcsWrong() {	
 	String in1 = "pqrst";
         String in2 = "uvwxyz";
@@ -62,7 +62,7 @@ public class AlgoOpsTest {
     }
     
     @Test
-    @Order(1)
+    @Order(3)
     public void testLcsMultiline() {	
 	String in1 = "drop view if exists  my_view1, my_view2, my_view3, my_view4";		
         String in2 = "drop \r\n" + "view some_view\t restrict";
